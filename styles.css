@@ -94,7 +94,7 @@
   .hero {
     width: calc(100vw - 400px);
     height: 100vh;
-    background-image: url("https://virginiesuys.be/wp-content/uploads/2018/03/zza-1920x1080.jpg");
+    background-image: url("https://images.unsplash.com/photo-1441039995991-e5c1178e605a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1336&q=80");
     background-size: cover;
     display: flex;
     flex-direction: column;
