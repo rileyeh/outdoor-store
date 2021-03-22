@@ -95,9 +95,7 @@
     width: calc(100vw - 400px);
     height: 100vh;
     background-image: url("https://virginiesuys.be/wp-content/uploads/2018/03/zza-1920x1080.jpg");
-    background-size: 100vw 100vh;
-    background-position: -250px;
-    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
