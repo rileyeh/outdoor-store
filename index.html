@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outdoor Store</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+          <h2 class="logo">OUTDOOR<br>STORE</h2>
+      
+          <nav>
+            <p>Shop All</p>
+            <p>Gear</p>
+            <p>Clothes</p>
+            <p>Sale</p>
+          </nav>
+        </div>
+      
+        <div class="form-container">
+          <p class="sub-intro">subscribe to our<br>mailing list</p>
+          <h3 id="close-form" onclick="toggler()">X</h3>
+      
+          <form class="form">
+            <label for="email">enter your email:</label>
+            <input type="text" placeholder="email" id="email" />
+            <button id="sign-up">sign up</button>
+          </form>
+        </div>
+      </header>
+      
+      <main class="hero">
+          <div class="cart-display">Your cart: 0 items</div>
+        <h1 class="hero-heading">NEW ARRIVALS</h1>
+      
+        <section>
+          <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1521369909029-2afed882baee?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="hat" class="product-img" />
+            <button onclick="addToCart()">add to cart</button>
+          </div>
+          <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1577733966973-d680bffd2e80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="backpack" class="product-img" />
+            <button onclick="addToCart()">add to cart</button>
+          </div>
+          <div class="product-card">
+            <img src="https://modaija.pl/wp-content/uploads/2020/07/plqml-felipe-pelaquim-6zO5VKogoZE-unsplash.jpg" alt="shoe" class="product-img" />
+            <button onclick="addToCart()">add to cart</button>
+          </div>
+        </section>
+      </main>
+      <script src="main.js"></script>
+</body>
+</html>
